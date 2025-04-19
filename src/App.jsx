@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "../Header";
+import Header from "./Header";
 /*
 function AppLayout() {
     return (
