@@ -1,0 +1,101 @@
+cuisines.Header1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.nav-bar>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.nav-bar>ul>li {
+    padding: 10px;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Keeps text spaced */
+    gap: 8px;
+    width: 220px;                    /* Slightly wider */
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;           /* Prevents long text from overflowing */
+    overflow-wrap: break-word;       /* Same as above but more modern */
+    background-color: #fff;
+    font-family: sans-serif;         /* Cleaner font */
+}
+.card h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.card h3, .card p {
+    font-size: 14px;
+    margin: 2px 0;
+    font-weight: normal;
+}
+
+.card > img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.listhostels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.Header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Added for vertical alignment */
+    margin: 10px;
+    padding: 10px;       /* Added spacing inside */
+    border: 1px solid black;
+}
+
+
+
+
+
+.shimmer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  .shimmer-card {
+    width: 200px;
+    height: 150px;
+    background: #f0f0f0;
+    margin: 1rem;
+    border-radius: 8px;
+    animation: shimmer 1.5s infinite linear;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+  

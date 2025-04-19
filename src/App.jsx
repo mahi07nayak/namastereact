@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "../Header";
 /*
 function AppLayout() {
     return (
@@ -23,12 +24,14 @@ function AppLayout() {
    );
    */
 const AppLayout = function () {
-    return 
+    return (
     <>
-    <Header />
-    <Body />
-    <Footer />
-    </>;
+    
+    <Header/>
+    {/* <Body />
+    <Footer /> */}
+    </>
+    );
 };
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
