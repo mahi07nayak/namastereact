@@ -1,0 +1,27 @@
+{
+  "name": "reactapp-dev",
+  "version": "1.0.0",
+  "description": "pract namstereact",
+
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahi07nayak/namastereact.git"
+  },
+  "author": "Mahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahi07nayak/namastereact/issues"
+  },
+  "homepage": "https://github.com/mahi07nayak/namastereact#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
