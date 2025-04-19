@@ -680,8 +680,10 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _header = require("../Header");
+var _header = require("./Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
+var _body = require("./component/Body");
+var _bodyDefault = parcelHelpers.interopDefault(_body);
 /*
 function AppLayout() {
     return (
@@ -692,7 +694,7 @@ function AppLayout() {
         </>
     );
 }
-    */ /*
+ */ /*
    const AppLayout = () => (
        <>
            <Header />
@@ -702,12 +704,19 @@ function AppLayout() {
    );
    */ const AppLayout = function() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-            fileName: "src/App.jsx",
-            lineNumber: 30,
-            columnNumber: 5
-        }, this)
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 31,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                fileName: "src/App.jsx",
+                lineNumber: 32,
+                columnNumber: 4
+            }, this)
+        ]
+    }, void 0, true);
 };
 _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
@@ -724,7 +733,7 @@ $RefreshReg$(_c, "AppLayout");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../Header":"e08sU"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Header":"3XSel","./component/Body":"2oFg6"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18431,12 +18440,12 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"e08sU":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$7254 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$7254.init();
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3XSel":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$5331 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$5331.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7254.prelude(module);
+$parcel$ReactRefreshHelpers$5331.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -18447,7 +18456,7 @@ const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
         src: "https://lh3.googleusercontent.com/Em7AHf7XBH_RtGfCBVXz9RH8SM_pHkj3xPP-yd3cRguY1_Jc8fmqgx6WxnvGVyPV5xs5gL3HCD0FCuv6Xo4CwoY6ak4",
         alt: "Logo"
     }, void 0, false, {
-        fileName: "Header.jsx",
+        fileName: "src/Header.jsx",
         lineNumber: 5,
         columnNumber: 5
     }, undefined);
@@ -18458,7 +18467,7 @@ const Header = ()=>{
             className: "Header1",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
-                    fileName: "Header.jsx",
+                    fileName: "src/Header.jsx",
                     lineNumber: 13,
                     columnNumber: 17
                 }, undefined),
@@ -18469,45 +18478,45 @@ const Header = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "Home"
                             }, void 0, false, {
-                                fileName: "Header.jsx",
+                                fileName: "src/Header.jsx",
                                 lineNumber: 16,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "About"
                             }, void 0, false, {
-                                fileName: "Header.jsx",
+                                fileName: "src/Header.jsx",
                                 lineNumber: 17,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "Contact"
                             }, void 0, false, {
-                                fileName: "Header.jsx",
+                                fileName: "src/Header.jsx",
                                 lineNumber: 18,
                                 columnNumber: 25
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "cart"
                             }, void 0, false, {
-                                fileName: "Header.jsx",
+                                fileName: "src/Header.jsx",
                                 lineNumber: 19,
                                 columnNumber: 25
                             }, undefined)
                         ]
                     }, void 0, true, {
-                        fileName: "Header.jsx",
+                        fileName: "src/Header.jsx",
                         lineNumber: 15,
                         columnNumber: 21
                     }, undefined)
                 }, void 0, false, {
-                    fileName: "Header.jsx",
+                    fileName: "src/Header.jsx",
                     lineNumber: 14,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
-            fileName: "Header.jsx",
+            fileName: "src/Header.jsx",
             lineNumber: 12,
             columnNumber: 13
         }, undefined)
@@ -18519,11 +18528,336 @@ var _c, _c1;
 $RefreshReg$(_c, "Title");
 $RefreshReg$(_c1, "Header");
 
-  $parcel$ReactRefreshHelpers$7254.postlude(module);
+  $parcel$ReactRefreshHelpers$5331.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["1Mwa1","f8V2Q"], "f8V2Q", "parcelRequire1b60", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2oFg6":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$8a8d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$8a8d.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8a8d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _constant = require("./constant");
+// import { useState } from "react";
+// const [restrauntLists,setrestrauntLists]=useState([]);
+const Body = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "listhotels",
+        children: (0, _constant.restrauntList).map((resturant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Resturantcard, {
+                resturant: resturant
+            }, resturant.info.id, false, {
+                fileName: "src/component/Body.jsx",
+                lineNumber: 12,
+                columnNumber: 16
+            }, undefined))
+    }, void 0, false, {
+        fileName: "src/component/Body.jsx",
+        lineNumber: 10,
+        columnNumber: 9
+    }, undefined);
+};
+_c = Body;
+// ✅ Component name starts with a capital letter
+const Resturantcard = ({ resturant })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: (0, _constant.IMG_CDN) + resturant?.info?.cloudinaryImageId
+            }, void 0, false, {
+                fileName: "src/component/Body.jsx",
+                lineNumber: 21,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: resturant?.info?.name || "not available"
+            }, void 0, false, {
+                fileName: "src/component/Body.jsx",
+                lineNumber: 22,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: resturant?.info?.cuisines?.join(",") || "not available"
+            }, void 0, false, {
+                fileName: "src/component/Body.jsx",
+                lineNumber: 23,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/component/Body.jsx",
+        lineNumber: 20,
+        columnNumber: 9
+    }, undefined);
+};
+_c1 = Resturantcard;
+exports.default = Body; /*
+  import { IMG_CDN } from "./constant";
+import { restrauntList } from "./constant";
+
+// ✅ Component name starts with a capital letter
+const RestaurantCard = ({ resturant }) => {
+    return (
+        <div className="card">
+            <img src={IMG_CDN + resturant?.info?.cloudinaryImageId} alt="Restaurant" />
+            <h2>{resturant?.info?.name || "Not available"}</h2>
+            <h3>{resturant?.info?.cuisines?.join(", ") || "Not available"}</h3>
+        </div>
+    );
+};
+
+const Body = () => {
+    return (
+        <div className="listhotels">
+            {/* ✅ Map through the list and pass each item to RestaurantCard */  /*}
+            {restrauntList.map((resturant) => (
+                <RestaurantCard key={resturant.info.id} resturant={resturant} />
+            ))}
+        </div>
+    );
+};
+
+export default Body;
+
+ */ 
+var _c, _c1;
+$RefreshReg$(_c, "Body");
+$RefreshReg$(_c1, "Resturantcard");
+
+  $parcel$ReactRefreshHelpers$8a8d.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./constant":"7I7Rn"}],"7I7Rn":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "IMG_CDN", ()=>IMG_CDN);
+parcelHelpers.export(exports, "restrauntList", ()=>restrauntList);
+const IMG_CDN = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_324,c_fill/";
+const restrauntList = [
+    {
+        "info": {
+            "id": "738734",
+            "name": "Zam Zam Fast Food",
+            "cloudinaryImageId": "7e3dcd737f0251895d6b50e5a17fca33",
+            "locality": "Thele Wali sadak",
+            "areaName": "Taj Ul Masjid",
+            "costForTwo": "\u20B9250 for two",
+            "cuisines": [
+                "Mughlai",
+                "Indian",
+                "Chinese",
+                "Fast Food"
+            ],
+            "avgRating": 4.3,
+            "parentId": "17529",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "5.3K+",
+            "sla": {
+                "deliveryTime": 38,
+                "lastMileTravel": 6.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "6.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-04-08 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "\u20B9125 OFF",
+                "subHeader": "ABOVE \u20B9249",
+                "discountTag": "FLAT DEAL"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "logo": "Swiggy%20One%20Lite/One_lite_vertical_logo.png"
+                },
+                "freedelMessage": "FREE DELIVERY",
+                "badgeType": "BADGE_TYPE_ONE_LITE"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        }
+    },
+    {
+        "info": {
+            "id": "764469",
+            "name": "Sharma Bhojnalaya Jawahar chowk",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/29/3cc8f33a-7ee9-4739-acfc-6d581808ce36_764469sssss.jpg",
+            "locality": "Hanuman mandir , Jawahar chowk",
+            "areaName": "JAWAHAR CHOWK",
+            "costForTwo": "\u20B9200 for two",
+            "cuisines": [
+                "North Indian",
+                "Thalis",
+                "Indian",
+                "Punjabi",
+                "Tandoor",
+                "Desserts",
+                "Beverages",
+                "Salads"
+            ],
+            "avgRating": 4.2,
+            "veg": true,
+            "parentId": "493004",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "2.4K+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-04-08 23:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT \u20B949"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "logo": "Swiggy%20One%20Lite/One_lite_vertical_logo.png"
+                },
+                "freedelMessage": "FREE DELIVERY",
+                "badgeType": "BADGE_TYPE_ONE_LITE"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        }
+    },
+    {
+        "info": {
+            "id": "918454",
+            "name": "Habibi's Fast Food",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/30/2ca894f7-f732-4c1a-9e40-60886fff48ce_918454.JPG",
+            "locality": "Shoukat Mahal Iqbal Maidan",
+            "areaName": "Jahangirabad",
+            "costForTwo": "\u20B9250 for two",
+            "cuisines": [
+                "Biryani",
+                "Mughlai",
+                "Indian",
+                "Fast Food"
+            ],
+            "avgRating": 4.2,
+            "parentId": "533344",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "132",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 6.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "6.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-04-08 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO \u20B980"
+            },
+            "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                    "logo": "Swiggy%20One%20Lite/One_lite_vertical_logo.png"
+                },
+                "freedelMessage": "FREE DELIVERY",
+                "badgeType": "BADGE_TYPE_ONE_LITE"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        }
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["1Mwa1","f8V2Q"], "f8V2Q", "parcelRequire1b60", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=reactapp dev.e748331f.js.map

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./Header";
+import Body from "./component/Body";
 /*
 function AppLayout() {
     return (
@@ -11,10 +12,10 @@ function AppLayout() {
         </>
     );
 }
-    */
+ */
 
 
-   /*
+ /*
    const AppLayout = () => (
        <>
            <Header />
@@ -28,9 +29,8 @@ const AppLayout = function () {
     <>
     
     <Header/>
-    {/* <Body />
-    <Footer /> */}
-    </>
+   <Body/>
+     </>
     );
 };
 
